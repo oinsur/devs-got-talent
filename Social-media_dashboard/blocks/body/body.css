@@ -1,0 +1,7 @@
+.body {
+  margin: 0;
+  background-color: #1d1f29;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}

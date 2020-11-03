@@ -1,0 +1,14 @@
+.data__block {
+  width: 333px;
+  height: 164px;
+  background-color: #252b43;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-top: 1em;
+}
+
+@media screen and (min-width: 786px) {
+  .data__block {
+    margin-top: 2em;
+  }
+}

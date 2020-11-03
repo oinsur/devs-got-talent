@@ -1,0 +1,13 @@
+/*Font from Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/*CSS style folders*/
+@import url('/blocks/body/body.css');
+@import url('/blocks/page/page.css');
+@import url('/blocks/header/header.css');
+@import url('/blocks/social-data/social-data.css');
+@import url('/blocks/supporters/supporters.css');
+@import url('/blocks/data/data.css');
+@import url('/blocks/up-arrow/up-arrow.css');
+@import url('/blocks/down-arrow/down-arrow.css');
+@import url('/blocks/daily-count/daily-count.css');
+@import url('/blocks/daily-count-negative/daily-count-negative.css');

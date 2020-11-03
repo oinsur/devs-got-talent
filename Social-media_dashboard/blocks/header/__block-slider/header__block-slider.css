@@ -1,0 +1,6 @@
+.header__block-slider {
+  width: 60px;
+  border-radius: 30px;
+  border-style: none;
+  background: linear-gradient(90deg, rgba(51,148,225,1) 0%, rgba(53,210,140,1) 100%);
+}

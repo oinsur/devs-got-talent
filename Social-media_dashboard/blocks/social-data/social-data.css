@@ -1,0 +1,10 @@
+.social-data {
+  position: absolute;
+  top: 6.5em;
+}
+
+@media screen and (max-width: 768px) {
+  .social-data {
+    top: 9.5em;
+  }  
+}

@@ -1,0 +1,19 @@
+.header__block-item {
+  list-style: none;
+  width: 90%;
+}
+
+.header__block-item:last-child {
+  width: 18%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0;
+}
+
+@media screen and (max-width: 786px) {
+  .header__block-item:last-child {
+    border-top: 1px solid #8b97c8;
+    width: 90%;
+    padding-top: 1em;
+  }
+}

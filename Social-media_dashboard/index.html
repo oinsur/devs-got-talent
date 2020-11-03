@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <meta name="description" content="Omar's first Devs Got Talent Project">
+    <meta name="keywords" content="html, css, bem, flex, responsive">
+    <meta name="author" content="Omar Insurriaga">
+    <title>Social Media Dashboard</title>
+  </head>
+<body class="body">
+  <!--container for site-->
+  <div class="page">
+    <!--Site header-->
+    <header class="header">
+      <ul class="header__block">
+        <li class="header__block-item">
+          <!--Title for the site-->
+          <h1 class="header__block-title">Social Media Dashboard</h1>
+          <p class="header__block-subtitle">Total Followers: 23,004</p>
+        </li>
+        <!--Dark mode slider-->
+        <li class="header__block-item"><h3 class="header__block-label">Dark Mode</h3>
+          <button class="header__block-slider">
+            <div class="header__block-switch">
+            </div>
+          </button>
+        </li>
+      </ul>
+    </header>
+    <!--Container that holds the different items on the page-->
+    <div class="social-data">
+      <!--Section that shows followers & supports-->
+      <section class="supporters">
+        <!--Facebook block-->
+        <div class="supporters__block">
+          <div class="supporters__block-top">
+          </div>
+          <!--Followers data for FB-->
+          <ul class="supporters__block-items">
+            <li class="supporters__block-acct">
+              <img src="./icons/facebook-plain.svg" alt="Facebook logo" class="supporters__block-FBlogo">
+              <h3 class="supporters__block-name">@omari</h3>
+            </li>
+            <li class="supporters__block-number">1987</li>
+            <li class="supporters__block-label">Followers</li>
+            <li class="supporters__block-changes">
+              <i class="up-arrow"></i>
+              <h3 class="daily-count">12 Today</h3>
+            </li>
+          </ul>
+        </div>
+        <!--Twitter block-->
+        <div class="supporters__block">
+          <div class="supporters__block-top">
+          </div>
+          <!--Followers data for Twitter-->
+          <ul class="supporters__block-items">
+            <li class="supporters__block-acct">
+              <img src="./icons/twitter-original.svg" alt="Twitter logo" class="supporters__block-logo">
+              <h3 class="supporters__block-name">@oinsur</h3>
+            </li>
+            <li class="supporters__block-number">1044</li>
+            <li class="supporters__block-label">Followers</li>
+            <li class="supporters__block-changes">
+              <i class="up-arrow"></i>
+              <h3 class="daily-count">99 Today</h3>
+            </li>
+          </ul>
+        </div>
+        <!--Instagram block-->
+        <div class="supporters__block">
+          <div class="supporters__block-instagram">
+          </div>
+          <!--Followers data for Instagram-->
+          <ul class="supporters__block-items">
+            <li class="supporters__block-acct">
+              <div class="supporters__block-icon"></div>
+              <h3 class="supporters__block-name">@oinsur</h3>
+            </li>
+            <li class="supporters__block-number">11K</li>
+            <li class="supporters__block-label">Followers</li>
+            <li class="supporters__block-changes">
+              <i class="up-arrow"></i>
+              <h3 class="daily-count">1099 Today</h3>
+            </li>
+          </ul>
+        </div>
+        <!--Youtube block-->
+        <div class="supporters__block">
+          <div class="supporters__block-youtube">
+          </div>
+          <!--Followers data for Youtube-->
+          <ul class="supporters__block-items">
+            <li class="supporters__block-acct">
+              <div class="supporters__block-icon-red"></div>
+              <h3 class="supporters__block-name">@oinsur</h3>
+            </li>
+            <li class="supporters__block-number">8239</li>
+            <li class="supporters__block-label">Subscribers</li>
+            <li class="supporters__block-changes">
+              <i class="down-arrow"></i>
+              <h3 class="daily-count-negative">144 Today</h3>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--Section that contains quantitative data-->
+      <section class="data">
+        <div class="data__heading">
+          <h2 class="data__heading-text">Overview - Today</h2>
+        </div>
+        <!--Facebook page views-->
+        <div class="data__block">
+          <ul class="data__block-items">
+            <li class="data__block-label">
+              <h3 class="data__block-text">Page Views</h3>
+              <img src="./icons/facebook-plain.svg" alt="Facebook logo" class="data__block-logo">
+            </li>
+            <li class="data__block-values">
+              <h2 class="data__block-value">87</h2>
+              <div class="data__block-changes">
+                <i class="up-arrow"></i>
+                <h3 class="daily-count">3%</h3>
+            </li>
+          </ul>
+        </div>
+        <!--Facebook likes-->
+        <div class="data__block">
+          <ul class="data__block-items">
+            <li class="data__block-label">
+              <h3 class="data__block-text">Likes</h3>
+              <img src="./icons/facebook-plain.svg" alt="Facebook logo" class="data__block-logo">
+            </li>
+            <li class="data__block-values">
+              <h2 class="data__block-value">52</h2>
+              <div class="data__block-changes">
+                <i class="down-arrow"></i>
+                <h3 class="daily-count-negative">2%</h3>
+            </li>
+          </ul>
+        </div>
+        <!--Instagram likes-->
+        <div class="data__block">
+          <ul class="data__block-items">
+            <li class="data__block-label">
+              <h3 class="data__block-text">Likes</h3>
+              <div class="data__block-insta"></div>
+            </li>
+            <li class="data__block-values">
+              <h2 class="data__block-value">5462</h2>
+              <div class="data__block-changes">
+                <i class="up-arrow"></i>
+                <h3 class="daily-count">2257%</h3>
+            </li>
+          </ul>
+        </div>
+        <!--Instagram profile views-->
+        <div class="data__block">
+          <ul class="data__block-items">
+            <li class="data__block-label">
+              <h3 class="data__block-text">Profile Views</h3>
+              <div class="data__block-insta"></div>
+            </li>
+            <li class="data__block-values">
+              <h2 class="data__block-value">52k</h2>
+              <div class="data__block-changes">
+                <i class="up-arrow"></i>
+                <h3 class="daily-count">1375%</h3>
+            </li>
+          </ul>
+        </div>
+        <!--Twitter retweets-->
+        <div class="data__block">
+          <ul class="data__block-items">
+            <li class="data__block-label">
+              <h3 class="data__block-text">Retweets</h3>
+              <img src="./icons/twitter-original.svg" alt="Twitter logo" class="data__block-logo">
+            </li>
+            <li class="data__block-values">
+              <h2 class="data__block-value">117</h2>
+              <div class="data__block-changes">
+                <i class="up-arrow"></i>
+                <h3 class="daily-count">303%</h3>
+            </li>
+          </ul>
+        </div>
+        <!--Twitter likes-->
+        <div class="data__block">
+          <ul class="data__block-items">
+            <li class="data__block-label">
+              <h3 class="data__block-text">Likes</h3>
+              <img src="./icons/twitter-original.svg" alt="Twitter logo" class="data__block-logo">
+            </li>
+            <li class="data__block-values">
+              <h2 class="data__block-value">507</h2>
+              <div class="data__block-changes">
+                <i class="up-arrow"></i>
+                <h3 class="daily-count">553%</h3>
+            </li>
+          </ul>
+        </div>
+        <!--Youtube likes-->
+        <div class="data__block">
+          <ul class="data__block-items">
+            <li class="data__block-label">
+              <h3 class="data__block-text">Likes</h3>
+              <div class="data__block-youtube"></div>
+            </li>
+            <li class="data__block-values">
+              <h2 class="data__block-value">107</h2>
+              <div class="data__block-changes">
+                <i class="down-arrow"></i>
+                <h3 class="daily-count-negative">19%</h3>
+            </li>
+          </ul>
+        </div>
+        <!--Youtube total views-->
+        <div class="data__block">
+          <ul class="data__block-items">
+            <li class="data__block-label">
+              <h3 class="data__block-text">Total Views</h3>
+              <div class="data__block-youtube"></div>
+            </li>
+            <li class="data__block-values">
+              <h2 class="data__block-value">1407</h2>
+              <div class="data__block-changes">
+                <i class="down-arrow"></i>
+                <h3 class="daily-count-negative">12%</h3>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+.header__block {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 786px) {
+  .header__block {
+    flex-direction: row;
+    max-width: 1446px;
+    padding: 0 1em;
+  }
+}

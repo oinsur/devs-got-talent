@@ -1,0 +1,27 @@
+@import url('./__heading/data__heading.css');
+@import url('./__heading-text/data__heading-text.css');
+@import url('./__block/data__block.css');
+@import url('./__block-items/data__block-items.css');
+@import url('./__block-label/data__block-label.css');
+@import url('./__block-text/data__block-text.css');
+@import url('./__block-logo/data__block-logo.css');
+@import url('./__block-insta/data__block-insta.css');
+@import url('./__block-youtube/data__block-youtube.css');
+@import url('./__block-values/data__block-values.css');
+@import url('./__block-value/data__block-value.css');
+@import url('./__block-changes/data__block-changes.css');
+
+.data {
+  max-width: 1446px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 1em 1em;
+}
+
+@media screen and (max-width: 786px) {
+  .data {
+    justify-content: center;
+  }
+}

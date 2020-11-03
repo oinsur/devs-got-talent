@@ -1,0 +1,6 @@
+.data__block-insta {
+  width: 1.5em;
+  height: 1.5em;
+  background: linear-gradient(90deg, rgba(253,194,95,1) 0%, rgba(225,70,149,1) 100%);
+  border-radius: 30%;
+}
